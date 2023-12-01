@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <div className="header">
         <div className="nav-bar">
-          <a href="#home">Home</a>
+          <a href="#home" id='home'>Home</a>
           <a href="#about-me">About</a>
           <a href="#my-skills">Skills</a>
           <a href="#my-projects">Project</a>
@@ -61,12 +61,12 @@ function App() {
       </div>
 
 
-      <div className="about-me">
+      <div  id="about-me" className="about-me">
         <h2>About Me</h2>
         <p>Hello !</p>
       </div>
 
-      <div className="my-skills">
+      <div id="my-skills" className="my-skills">
         <h2>My Skills</h2>
 
 
@@ -130,7 +130,7 @@ function App() {
 
       </div>
 
-      <div className="my-projects">
+      <div id="my-projects" className="my-projects">
         <h2>My projects</h2>
 
       <div className='projet1'>
@@ -147,7 +147,7 @@ function App() {
 
       </div>
 
-      <div className="contact-me">
+      <div id="contact-me" className="contact-me">
         <h2>Contact Me</h2>
       </div>
 
