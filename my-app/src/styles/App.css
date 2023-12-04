@@ -121,6 +121,9 @@ h2 {
 
  .my-skills {
     width: 100%;
+    background-color: #000000;
+    color: #D3E6F8;
+    border-radius: 20px;
 
  }
 
@@ -147,8 +150,22 @@ h2 {
     background-color: #65A8E7;
  }
 
+ .my-projects {
+    background-color: #000000;
+    color: #D3E6F8;
+    border-radius: 20px;
+    
+}
+
  .my-projects img {
-    width: 30%;
+    width: 50%;
+}
+
+.project_picture_and_txt {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+
 }
 
 .project_picture img {

@@ -135,12 +135,18 @@ function App() {
 
       <div className='projet1'>
 
-        <div className='project_picture'>
-          <h3>PFullstack project of a bodybuilding exercise application</h3>
+        <div className='project_picture_and_txt'>
+
+          <div className='project_txt'>
+          <h3>Fullstack project of a bodybuilding exercise application</h3>
           <p>Developed a bodybuilding exercise app using cutting-edge technologies such as React, Next.js, TypeScript and Chakra UI.</p>
+          </div>
+
+          <div className='project_picture'>
           <a href='https://projet-hero-fullstack.vercel.app/'>
             <img src={AppMusculation} alt='Photo du projet App Musculation' />
           </a>
+          </div>
         </div>
         </div>
 
